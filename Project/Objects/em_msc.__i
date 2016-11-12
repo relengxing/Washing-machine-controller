@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\BSP -I ..\CMSIS\efm32tg -I ..\CMSIS\Include -I ..\EFM32TG_STK3300\config -I ..\emlib\inc -I ..\Source -I ..\App\App_Interface -I ..\App\App_Head -I ..\Middle_1278 -I ..\App\App_Gprs -I ..\App\App_SC -I ..\App\App_ReadMeter -I ..\App\App_Report --c99 --diag_suppress=47
+-I F:\项目：洗衣机控制器2016_4_5\程序\EFM32_DEMO\Project\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\EFM32TGxxx_DFP\1.1.0\Device\EFM32TG\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DEFM32TG840F32 -DEFM32TG840F32 -DDEBUG_EFM
+-o .\objects\em_msc.o --omf_browse .\objects\em_msc.crf --depend .\objects\em_msc.d "..\emlib\src\em_msc.c"

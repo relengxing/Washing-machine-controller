@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I F:\项目：洗衣机控制器2016_4_5\程序\EFM32_DEMO\Project\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\EFM32TGxxx_DFP\1.1.0\Device\EFM32TG\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 518" --pd "EFM32TG840F32 SETA 1"
+--list .\listings\startup_efm32tg.lst --xref -o .\objects\startup_efm32tg.o --depend .\objects\startup_efm32tg.d "..\CMSIS\efm32tg\startup_efm32tg.s"
